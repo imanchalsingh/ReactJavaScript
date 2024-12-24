@@ -1,0 +1,92 @@
+.pagedivstyle:hover {
+  border: 2px solid gray !important ;
+}
+
+.pagedivstyle:active {
+  transform: scale(0.98);
+}
+
+@media (max-width: 400px) {
+  .pagedivstyle {
+    width: 300px !important;
+  }
+  * p , i{
+    font-size: smaller;
+  }
+  * h1,
+  h2 {
+    font-size: large;
+  }
+  .thirdpagestyle {
+    display: flex;
+    flex-direction: column;
+  }
+  .thirdpagestyle img {
+    width: 200px !important;
+    height: 150px !important;
+    margin-left: -10px;
+  }
+  .thirdpagedivstyle {
+    width: 300px !important;
+    padding-left: 0px !important;
+  }
+  .forthpagestyle {
+    display: flex;
+    flex-direction: column;
+  }
+  .forthpagetitlestyle {
+    width: 300px;
+  }
+  .forthpagetitlestyle > h2,
+  p {
+    font-size: smaller;
+  }
+  .forthpagedivstyle {
+    width: 200px !important;
+    height: 60px !important;
+  }
+  .forthpagedivstyle,
+  h3,
+  p {
+    font-size: smaller;
+    margin: 0px !important;
+    padding: 0px !important;
+    margin-top: 5px !important ;
+  }
+  .fifthpagestyle {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .fifthpageimagestyle > img {
+    width: 300px !important;
+    height: 200px !important;
+  }
+  .fifthpagetitlestyle {
+    width: 300px !important;
+    padding-left: 0px !important;
+  }
+  .ratingstarstyle {
+    font-size: large !important;
+  }
+  .fifthpagetitlestyle > p {
+    font-size: smaller;
+  }
+  .loadingpagestyle {
+    width: 250px !important;
+  }
+  .lastpagedivstyle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .lastpagetextstyle{
+    width: 250px !important;
+    height: 100px !important;
+  }
+  .lastpagetextstyle > img {
+    width: 80px !important;
+    height: 80px !important; 
+    padding: 0px !important;
+  }
+}
